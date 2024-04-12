@@ -1,0 +1,18 @@
+h3{
+    font-size: 24px;
+    color: silver;
+}
+.create-btn{
+    background-color: silver;
+    font-size: 22px;
+    height: 22px;
+    width: 28px;
+    border-radius: 32px;
+}
+.discover-btn{
+    background-color: silver;
+    font-size: 22px;
+    height: 28px;
+    width: 44px;
+    border-radius: 6px;
+}

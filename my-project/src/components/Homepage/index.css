@@ -1,0 +1,56 @@
+.home-page{
+    padding: 20px;
+}
+.bg-img-banner{
+    background-image: 'https://characterai.io/i/200/static/avatars/uploaded/2022/10/19/UHMcO-dD720KcZuxmWjNnuDzYGrhjrulXic0c-nZWBY.webp?webp=true&anim=0';
+    width: 70%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.banner-cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    width: 320px;
+    height: 220px;
+}
+.foryou-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.foryou-card{
+    background-color: silver;
+    max-width: 240px;
+    max-height: 140px;
+}
+.try-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.try-card{
+    background-color: silver;
+    max-width: 240px;
+    max-height: 140px;
+}
+@media screen and (max-width: 768px) {
+    .bg-img-banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .foryou-container{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 14px;
+    }
+}
